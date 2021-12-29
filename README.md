@@ -1,5 +1,7 @@
 # React Color Wheel Picker
 
+### inspired by react-color-picker-wheel
+
 ```
 npm i react-color-whell-picker
 or
