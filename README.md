@@ -1,31 +1,32 @@
-## A small but functional npm package
+# React Color Wheel Picker
+
+```
+npm i react-color-whell-picker
+or
+yarn add react-color-wheel-picker
+```
+
+[Demo]
+
+```
+import ColorPicker from 'react-color-wheel-picker';
 
 
-### Install
+const CustomColorPicker = () => {
 
-Install using `npm install jawblia`
-
-### Usage 
-
-In a React app, use the Button or Badge components:  
-`import { Button } from 'jawblia'`  
-`import { Badge } from 'jawblia'` 
-
-#### Button props
-
-| Name        | Description      
-| ----------- | -----------      
-| kind        | 'Primary' | 'Outline' | 'Inline' | 'Ghost' | ' Warning'            
-| data-id     | string             
-| type        | 'button' | 'submit' | 'reset'             
-| name        | string             
-| value       | string             
-| disabled    | Boolean          
-| onClick     | function         
+    const [colors, setColors] = useState({ hex: '#222222' });
 
 
-#### Badge props
+    retrun (
+        <ColorPicker
+          initialColor={colors.hex}
+          onChange={(color) => setColors(color)}
+          size={300}
+        />
+    }
+)
 
-| Name        | Description | 
-| ----------- | ----------- |
-| value       | integer     |
+export default CustomColorPicker;
+```
+
+[demo]: https://condescending-shockley-4d3ec0.netlify.app/
