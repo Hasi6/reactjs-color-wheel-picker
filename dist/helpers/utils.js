@@ -5,15 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.rgbToHsl = exports.rgbToHex = exports.hslToRgb = exports.hsToCoordinates = exports.hexToRGB = exports.coordinatesToHS = void 0;
 
-require("core-js/modules/es.regexp.exec.js");
-
-require("core-js/modules/es.parse-int.js");
-
-require("core-js/modules/es.regexp.to-string.js");
-
-require("core-js/modules/es.parse-float.js");
-
-require("core-js/modules/es.number.to-fixed.js");
+require("core-js/modules/es6.regexp.to-string.js");
 
 const hsToCoordinates = (hue, saturation) => ({
   x: (Math.cos((hue - 90) * (Math.PI / 180)) * (saturation / 100) + 1) / 2,

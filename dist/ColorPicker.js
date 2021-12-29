@@ -5,15 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-require("core-js/modules/web.dom-collections.iterator.js");
-
-require("core-js/modules/es.regexp.exec.js");
-
-require("core-js/modules/es.regexp.test.js");
-
-require("core-js/modules/es.parse-float.js");
-
-require("core-js/modules/es.number.to-fixed.js");
+require("core-js/modules/web.dom.iterable.js");
 
 var _react = _interopRequireWildcard(require("react"));
 
