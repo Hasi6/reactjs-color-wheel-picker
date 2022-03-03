@@ -2930,7 +2930,7 @@ core-js-pure@^3.19.0, core-js-pure@^3.8.1:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.20.1.tgz#f7a2c62f98de83e4da8fca7b78846d3a2f542145"
   integrity sha512-yeNNr3L9cEBwNy6vhhIJ0nko7fE7uFO6PgawcacGt2VWep4WqQx0RiqlkgSP7kqUMC1IKdfO9qPeWXcUheHLVQ==
 
-core-js@^2.6.5:
+core-js@^2.0.0, core-js@^2.6.5:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
@@ -6911,13 +6911,14 @@ react-app-polyfill@^3.0.0:
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
 
-react-color-wheel-picker@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-color-wheel-picker/-/react-color-wheel-picker-1.0.3.tgz#8657294eadee5fd237d5d7df7585f0a77fba68b5"
-  integrity sha512-Q1CDvHugtUR4I/xWfqQo36bh4oHtfJn3y7UGp8dklx62OwKP5qfakWvrOhBte0uu+Q5Rbk3QustkZIdUn3LoGQ==
+react-color-wheel-picker@^1.0.10:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/react-color-wheel-picker/-/react-color-wheel-picker-1.0.11.tgz#6b0996a7179caa6ffea4668fb0fc28b63ace1a7f"
+  integrity sha512-hknuUWm6k/ahnA7U+S5SZP+nAXea5hvtf19WVWS6j8UcmpVhtn3IgEcEFd4YHLsHNrSKp8x5GI0zCbj/haQlQQ==
   dependencies:
     "@babel/polyfill" "^7.12.1"
     "@babel/preset-react" "^7.16.5"
+    core-js "^2.0.0"
 
 react-dev-utils@^12.0.0:
   version "12.0.0"
